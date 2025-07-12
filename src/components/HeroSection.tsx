@@ -54,7 +54,7 @@ export function HeroSection() {
               className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white shadow-xl transition-all duration-300 px-8 py-3 text-lg font-medium"
             >
               <MessageCircle className="w-5 h-5 mr-2" />
-              Let&quots Connect
+              Let&quot;s Connect
             </Button>
           </div>
         </div>
