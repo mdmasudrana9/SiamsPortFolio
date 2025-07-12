@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Card, CardContent } from "@/components/ui/card";
-import { Linkedin, Github, Mail, MapPin } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import Link from "next/link";
 
 export function ContactSection() {
+  const CurrentDate = new Date().getFullYear();
   return (
     <section id="contact" className="py-24 px-6">
       <div className="max-w-7xl mx-auto">
@@ -58,20 +60,24 @@ export function ContactSection() {
             </div>
 
             <div className="flex gap-4">
-              <Button
-                size="lg"
-                className="bg-white/20 hover:bg-white/30 text-white border-white/30 backdrop-blur-sm"
-              >
-                <Linkedin className="w-5 h-5 mr-2" />
-                LinkedIn
-              </Button>
-              <Button
-                size="lg"
-                className="bg-white/20 hover:bg-white/30 text-white border-white/30 backdrop-blur-sm"
-              >
-                <Github className="w-5 h-5 mr-2" />
-                GitHub
-              </Button>
+              <Link href="https://www.linkedin.com/in/shahad-parvez-siam/">
+                <Button
+                  size="lg"
+                  className="bg-white/20 hover:bg-white/30 text-white border-white/30 backdrop-blur-sm"
+                >
+                  <Linkedin className="w-5 h-5 mr-2" />
+                  LinkedIn
+                </Button>
+              </Link>
+              <Link href="https://github.com/ShahadeParvazeSiam">
+                <Button
+                  size="lg"
+                  className="bg-white/20 hover:bg-white/30 text-white border-white/30 backdrop-blur-sm"
+                >
+                  <Github className="w-5 h-5 mr-2" />
+                  GitHub
+                </Button>
+              </Link>
             </div>
           </div>
 
@@ -116,7 +122,7 @@ export function ContactSection() {
 
         <div className="text-center mt-16 pt-8 border-t border-white/20">
           <p className="text-white/70">
-            © 2025 Shahad Parvez Siam. All rights reserved.
+            © {CurrentDate} Shahad Parvez Siam. All rights reserved.
             <br />
             <span className="text-purple-300">
               Made with ❤️ and lots of coffee

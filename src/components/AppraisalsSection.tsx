@@ -7,7 +7,7 @@ const appraisals = [
     name: "Nifis Tarik",
     role: "Software Engineer",
     company: "Therap (BD) Ltd.",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/image.png?height=100&width=100",
     testimonial:
       "Siam is experienced and talented. He has the ability to understand complex problems and provide effective solutions. His analytical mindset is truly impressive.",
     rating: 5,
@@ -16,7 +16,7 @@ const appraisals = [
     name: "Ahnaf Sayem",
     role: "Research Scientist",
     company: "Therap (BD) Ltd.",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/image.png?height=100&width=100",
     testimonial:
       "Working with siam has been a great experience. His analytical skills and attention to detail are remarkable. He consistently delivers high-quality work.",
     rating: 5,
@@ -25,7 +25,7 @@ const appraisals = [
     name: "Anindya Basak",
     role: "Software Engineer",
     company: "Therap (BD) Ltd.",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/image.png?height=100&width=100",
     testimonial:
       "Siam is an exceptional team player with strong technical skills and great problem-solving abilities. His dedication to learning is inspiring.",
     rating: 5,

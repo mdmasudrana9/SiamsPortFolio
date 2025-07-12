@@ -14,7 +14,7 @@ export function HeroSection() {
             <div className="relative">
               <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
                 <Image
-                  src="/placeholder.svg?height=192&width=192"
+                  src="/siam.png?height=192&width=192"
                   alt="Siam"
                   width={192}
                   height={192}

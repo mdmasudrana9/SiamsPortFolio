@@ -20,7 +20,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="aspect-[3/4] max-w-md mx-auto relative">
               <Image
-                src="/placeholder.svg?height=500&width=400"
+                src="/siam.png?height=500&width=400"
                 alt="Ahnaf Sayem"
                 width={400}
                 height={500}

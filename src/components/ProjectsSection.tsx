@@ -8,7 +8,7 @@ const projects = [
     title: "Retail Transaction Insights and Trends (EDA)",
     description:
       "Comprehensive exploratory data analysis of retail transactions to identify patterns and trends",
-    image: "/placeholder.svg?height=250&width=400",
+    image: "/48eb8750-e8b8-4348-81f3-d5630af4bf0b.jpeg?height=250&width=400",
     category: "Data Science",
     tags: ["Python", "Pandas", "Matplotlib"],
   },
@@ -16,7 +16,7 @@ const projects = [
     title: "From Goals to Glory: UCL EDA (2009-2017)",
     description:
       "Statistical analysis of UEFA Champions League data spanning 8 years of football history",
-    image: "/placeholder.svg?height=250&width=400",
+    image: "/4de2b8fe-172c-4d45-8b24-d5c7b92ce1f1.jpeg?height=250&width=400",
     category: "Sports Analytics",
     tags: ["R", "ggplot2", "Statistics"],
   },
@@ -24,7 +24,7 @@ const projects = [
     title: "Exploring Telecom Customer Churn Trends",
     description:
       "Machine learning model to predict customer churn and identify key retention factors",
-    image: "/placeholder.svg?height=250&width=400",
+    image: "/702ed499-b271-41a7-b9f7-5e0ffcfcc401.jpeg?height=250&width=400",
     category: "Machine Learning",
     tags: ["Scikit-learn", "XGBoost", "Feature Engineering"],
   },
@@ -32,7 +32,7 @@ const projects = [
     title: "Sales Forecasting Dashboard",
     description:
       "Interactive dashboard for sales prediction using time series analysis",
-    image: "/placeholder.svg?height=250&width=400",
+    image: "/7c7af1ab-67f3-4eed-8bda-c29605af41bf.jpeg?height=250&width=400",
     category: "Business Intelligence",
     tags: ["Tableau", "Time Series", "Forecasting"],
   },
@@ -40,7 +40,7 @@ const projects = [
     title: "Sentiment Analysis Engine",
     description:
       "NLP model for analyzing customer sentiment from social media data",
-    image: "/placeholder.svg?height=250&width=400",
+    image: "/956fc919-1dd4-4810-ba7f-df0fe3d2be7c.jpeg?height=250&width=400",
     category: "Natural Language Processing",
     tags: ["NLTK", "Transformers", "Deep Learning"],
   },
@@ -48,7 +48,7 @@ const projects = [
     title: "Python Playtime: Coding Classic Games",
     description:
       "Recreation of classic games using Python and object-oriented programming",
-    image: "/placeholder.svg?height=250&width=400",
+    image: "/e1a579c7-c253-4d17-93db-e4858519620e.jpeg?height=250&width=400",
     category: "Programming",
     tags: ["Python", "Pygame", "OOP"],
   },
